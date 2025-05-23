@@ -1,0 +1,87 @@
+/* Amenities container styling */
+.amenities-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Individual card styling */
+.amenity-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(170, 1, 1, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.amenity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(127, 2, 2, 0.467);
+}
+
+/* Image styling */
+.amenity-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background-color: #ffe2e2;
+  padding: 5px;
+}
+
+/* Amenity name styling */
+.amenity-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .amenities-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .amenity-card {
+    padding: 15px;
+  }
+
+  .amenity-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .amenity-name {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .amenities-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .amenity-card {
+    padding: 10px;
+  }
+
+  .amenity-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .amenity-name {
+    font-size: 16px;
+  }
+}

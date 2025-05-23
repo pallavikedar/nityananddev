@@ -1,0 +1,93 @@
+.project-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  color: #f97316;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: #ea580c;
+}
+
+/* Hero Section */
+.hero-section {
+  margin-bottom: 3rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  font-size: 2.75rem;
+  color: #1f2937;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.project-address {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+/* Amenities Section */
+.amenities-section {
+  margin-top: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.amenity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.amenity-icon {
+  font-size: 2rem;
+  color: #f97316;
+  margin-bottom: 0.75rem;
+}
+
+.amenity-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+}

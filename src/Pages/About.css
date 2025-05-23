@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-us {
+  background-color: #ffffff;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  color: white;
+  padding: 1px 20px;
+  background-color: #de1717;
+}
+
+.hero .hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-title span {
+  color: #fff176;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+}
+
+/* Mission Section */
+.mission {
+  padding: 60px 20px;
+  background: #f7f7f7;
+}
+
+.mission-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-image {
+  flex: 1;
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.mission-text {
+  flex: 1;
+  text-align: left;
+}
+
+.mission-icon {
+  font-size: 2.5rem;
+  color: #b71c1c;
+}
+
+.mission h2 {
+  font-size: 1.4rem;
+  color: #b71c1c;
+  margin-bottom: 15px;
+}
+
+.mission p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 17px 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  color: #b71c1c;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(153 153 31 / 33%);
+  padding: 20px;
+  width: auto;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #b71c1c;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  color: #b71c1c;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mission-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mission-image,
+  .mission-text {
+    flex: none;
+    width: 100%;
+  }
+
+  .mission-icon {
+    font-size: 2rem;
+  }
+
+  .mission h2 {
+    font-size: 1.2rem;
+  }
+
+  .mission p {
+    font-size: 0.9rem;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .feature-card {
+    width: 100%;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .why-choose-us h2 {
+    font-size: 1.5rem;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+  }
+  .feature-card {
+    
+    padding: 2px;
+  }
+}
