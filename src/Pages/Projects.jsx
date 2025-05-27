@@ -42,6 +42,7 @@ function Projects() {
 
   const handleProjectClick = (project) => {
     navigate(`/project/${project.id}`, { state: { project } });
+     window.scrollTo(0, 0);
   };
 
   return (

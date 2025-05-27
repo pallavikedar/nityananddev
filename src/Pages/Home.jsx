@@ -40,7 +40,7 @@ function Home() {
           autoPlay
           loop
           muted
-          preload="auto"
+          preload="metadata"
           className="slider-video"
           poster={image} // Add a placeholder image
           onLoadedData={handleVideoLoaded}
