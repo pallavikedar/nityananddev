@@ -1,0 +1,119 @@
+/* ProjectDetails.module.css */
+
+.projectDetailsContainer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+  background-color: #ffffff;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+
+.backButton:hover {
+  color: #a41414;
+}
+
+.heroSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heroImage {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(198, 40, 40, 0.3);
+}
+
+.projectTitle {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+.projectAddress {
+  font-size: 1.1rem;
+  color: #8e0000;
+  margin-top: 0.5rem;
+}
+
+.amenitiesSection,
+.locationSection {
+  margin-top: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #b71c1c;
+  border-left: 4px solid #d32f2f;
+  padding-left: 10px;
+}
+
+.amenitiesGrid,
+.locationGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+}
+
+.amenityCard,
+.locationCard {
+  background-color: #f8f5f5;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(198, 40, 40, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.amenityCard:hover,
+.locationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(198, 40, 40, 0.3);
+}
+
+.amenityIcon,
+.locationIcon {
+  font-size: 2rem;
+  color: #d32f2f;
+}
+
+.amenityName {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c62828;
+}
+
+.locationCard h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #b71c1c;
+}
+
+.locationCard p {
+  font-size: 0.9rem;
+  color: #8e0000;
+  margin: 0.25rem 0 0 0;
+}

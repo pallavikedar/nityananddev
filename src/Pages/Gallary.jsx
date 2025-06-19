@@ -1,5 +1,7 @@
 import React from "react";
 import "./Gallary.css";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 
@@ -34,7 +36,10 @@ const Gallery = () =>
  {
   return (
     <div>
-    <div style={{display:"flex",justifyContent:"center",alignItems:"center",}}><h2 style={{borderRadius:"0px 10px 0px 10px",color:"hsl(0, 100%, 39%)",fontSize:"2rem"}}>Gallery</h2></div>
+  
+    <div>
+   
+    <div style={{display:"flex",justifyContent:"center",alignItems:"center", marginTop:"100px" }}><h2 style={{borderRadius:"0px 10px 0px 10px",color:"hsl(0, 100%, 39%)",fontSize:"2rem"}}>Gallery</h2></div>
    
     <div className="unique-gallery-container">
 
@@ -44,6 +49,9 @@ const Gallery = () =>
         </div>
       ))}
     </div>
+   
+    </div>
+   
     </div>
   );
 };

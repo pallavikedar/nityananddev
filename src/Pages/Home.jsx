@@ -25,7 +25,7 @@ function Home() {
   return (
     <>
       <div id="home">
-        <Header />
+        
         <ContactIcons />
         <div className="slider">
           {isLoading && (
@@ -52,9 +52,9 @@ function Home() {
         <ServicesPage />
         <Projects />
         <Amenities />
-        <Gallery />
+       
         <ContactUs />
-        <Footer />
+        
       </div>
     </>
   );

@@ -52,6 +52,12 @@ function Header() {
                 Contact
               </li>
             </a>
+            <a href="/gallery" className="menu-link">
+              <li>
+
+                Gallery
+              </li>
+            </a>
           </ul>
         </nav>
         
