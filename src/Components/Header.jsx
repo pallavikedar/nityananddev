@@ -107,7 +107,7 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a href="#gallery" onClick={closeSidebar}>
+                <a href="/gallery" onClick={closeSidebar}>
                   <FaPhoneAlt className="sidebar-icon" />
                   Gallery
                 </a>
