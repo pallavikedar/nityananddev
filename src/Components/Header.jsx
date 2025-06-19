@@ -83,7 +83,7 @@ function Header() {
             </div>
             <ul className="sidebar-list">
               <li>
-                <a href="#home" onClick={closeSidebar}>
+                <a href="/#home" onClick={closeSidebar}>
                   <FaHome className="sidebar-icon" />
                   Home
                 </a>
@@ -104,6 +104,12 @@ function Header() {
                 <a href="#contact" onClick={closeSidebar}>
                   <FaPhoneAlt className="sidebar-icon" />
                   Contact
+                </a>
+              </li>
+              <li>
+                <a href="#gallery" onClick={closeSidebar}>
+                  <FaPhoneAlt className="sidebar-icon" />
+                  Gallery
                 </a>
               </li>
             </ul>
