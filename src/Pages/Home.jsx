@@ -10,7 +10,8 @@ import Gallery from "./Gallary";
 import ContactUs from "./Contact";
 import Footer from "../Components/Footer";
 import ContactIcons from "../Components/ContactIcon";
-import  image from '../Assets/background.png'
+import  image from '../Assets/background.png';
+import video from '../Assets/shreenagari.mp4'
 
 function Home() {
   
@@ -35,7 +36,7 @@ function Home() {
           )}
           <div className="slide">
           <video
-          src="https://resallingo.sfo3.digitaloceanspaces.com/WhatsApp%20Video%202025-06-19%20at%202.46.36%20PM.mp4"
+          src={video}
           controls={false}
           autoPlay
           loop
