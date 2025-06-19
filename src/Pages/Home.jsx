@@ -35,7 +35,7 @@ function Home() {
           )}
           <div className="slide">
           <video
-          src="https://resallingo.sfo3.digitaloceanspaces.com/resallingo/Shree%20Nagari%20III.mp4"
+          src="https://resallingo.sfo3.digitaloceanspaces.com/WhatsApp%20Video%202025-06-19%20at%202.46.36%20PM.mp4"
           controls={false}
           autoPlay
           loop
