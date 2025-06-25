@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaHome, FaInfoCircle, FaServicestack, FaPhoneAlt } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-import logo from "../Assets/logo1.png";
+import logo from "../Assets/logo1.jpg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
