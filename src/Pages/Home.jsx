@@ -72,7 +72,7 @@ function Home() {
       <ServicesPage />
       <Projects />
       <Amenities />
-      <Gallery />
+    
       <ContactUs />
       <Footer />
     </div>
