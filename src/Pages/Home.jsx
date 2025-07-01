@@ -44,7 +44,7 @@ function Home() {
 
   return (
     <div id="home" className="home-section">
-      <Header />
+   
       <ContactIcons />
       <div className="slider">
         {isLoading && (
@@ -74,7 +74,7 @@ function Home() {
       <Amenities />
     
       <ContactUs />
-      <Footer />
+     
     </div>
   );
 }
