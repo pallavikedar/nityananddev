@@ -56,7 +56,7 @@ function Home() {
         <div className="slide">
           <video
             ref={videoRef}
-            src={video}
+            src="https://fra.cloud.appwrite.io/v1/storage/buckets/68ece1ef00083478df97/files/68f0ae98000def10aa9a/view?project=68ece1d1000abe9952c0&mode=all"
             controls={false}
             autoPlay
             loop
